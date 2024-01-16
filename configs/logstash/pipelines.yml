@@ -2,3 +2,5 @@
   pipeline.workers: 1
   pipeline.batch.size: 1
   path.config: "/usr/share/logstash/config/pipelines/service_stamped_json_logs.conf"
+
+#  path.config: "/usr/share/logstash/config/pipelines/service_stamped_nginx_logs.conf"

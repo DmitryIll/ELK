@@ -1,7 +1,9 @@
 .DS_Store
 
-yctoken
+усtoken
 cloudid
+id_ed25519
+folderid
 
 # Local .terraform directories
 **/.terraform/*

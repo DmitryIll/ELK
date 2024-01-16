@@ -12,8 +12,8 @@ locals {
 }
 
 provider "yandex" {
-  token = "${file("./token")}"
+  token = "${file("./усtoken")}"
   cloud_id = "${file("./cloudid")}"
-  folder_id = "b1g6k2i3lobiesnh55af"
+  folder_id = "${file("./folderid")}"
   zone = local.zone
 }

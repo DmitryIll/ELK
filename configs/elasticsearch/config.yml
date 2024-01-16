@@ -1,4 +1,4 @@
-cluster.name: "elk"
+cluster.name: "elk-dmil"
 network.host: 0.0.0.0 # Для корректной работы внутри контейнера
 
 xpack.security.enabled: true # Для поддержки функционала, обеспечивающего безопасность кластера
